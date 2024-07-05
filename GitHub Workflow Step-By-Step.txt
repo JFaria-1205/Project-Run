@@ -1,0 +1,11 @@
+Just a quick step by step rundown of github merging workflow.
+
+1. Make sure whenever you make changes, you are in your branch (or at least a branch other than main and development; you can make branches as copies of development branch as this should be the latest working version of the project with updated changes.)
+
+2. Once you are done making changes, commit and push your changes on your branch.
+
+3. Go to the branch tab, and at the bottom select "choose a branch to merge into (your branch)". Merge development into your branch.
+
+4. Check to make sure your branch still works and nothing broke. Fix any errors.
+
+5. Once you are sure everything is still working, swap branches back to development, select "choose a branch to merge into development" from the branch tab, and merge your branch into development. There should be no errors as everything should be working in yours before merging.
